@@ -17,3 +17,7 @@ int main() {
             matriz1[i][j] = 0;
         }
     }
+     // Establecer la diagonal principal en 1
+    for (int i = 0; i < filas; i++) {
+        matriz1[i][i] = 1;
+    }
