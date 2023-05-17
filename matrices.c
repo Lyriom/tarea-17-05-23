@@ -21,3 +21,14 @@ int main() {
     for (int i = 0; i < filas; i++) {
         matriz1[i][i] = 1;
     }
+    // con este proceso podemos imprimir la matriz solicitada en el problema
+    printf("La matriz resultante es:\n");
+    for (int i = 0; i < filas; i++) {
+        for (int j = 0; j < columnas; j++) {
+            printf("%d ", matriz1[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
